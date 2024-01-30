@@ -29,7 +29,10 @@
           <a class="nav-link" href="../View/pvv-cx.php">Caixa com Etiqueta</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../View/buscar.php">Histórico</a>
+          <a class="nav-link" href="../View/buscar_del.php">Histórico</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../View/deletar.php">Deletar</a>
         </li>
        
       </ul>
