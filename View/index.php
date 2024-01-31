@@ -36,7 +36,7 @@
                <form method="GET" action="../Controller/AdicionarDts.php">
                     <strong>Total DTS:  </strong> <input type="text" name="qtd_Dts"   value="${sum}"><br>
                     <strong>Erros:  </strong><input type="text"  name="qtd_erroDts" value="${erro}"><br>
-                    <strong>Acuracidade DTS:  <input type="text" name="acurDts"   value="${acur}">
+                    <strong>Acuracidade DTS:  <input type="text" name="acurDts"   value="${acur}"><br>
                     <button type="submit" class="btn btn-primary">Enviar</button>
                 </form>
                 `;

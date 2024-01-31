@@ -1,8 +1,8 @@
 
 <?php
 include_once("header.php");
-include_once("../model/conexao.php");
-include_once("../model/bancoKPIs.php");
+include_once("../Model/conexao.php");
+include_once("../Model/bancoKPIs.php");
 ?>
 <!-- inicio formulario -->
 <div class="container m-4">
@@ -76,7 +76,7 @@ include_once("../model/bancoKPIs.php");
         ...
       </div>
       <div class="modal-footer">
-        <form action="../Controller/deletarContato.php" method="post">
+        <form action="../Controller/Deletarsepa.php" method="post">
           <input type="hidden" value="" class="idContato from-control" name="idContato">
           <button type="submit" class="btn btn-danger">Excluir</button>
         </form>

@@ -11,7 +11,7 @@ include_once("../Model/bancoKPIs.php");
         <label for="inputcodigo" class="col-form-label">Digite a Data</label>
     </div>
     <div class="col-auto">
-        <input type="text" id="inputcodigo" name="data" class="form-control" aria-describedby="passwordHelpInline">
+        <input type="text" id="inputcodigo" name="" class="form-control" aria-describedby="passwordHelpInline">
     </div>
     <div class="col-auto">
          <button type="submit" class="btn btn-primary">Buscar</button>
