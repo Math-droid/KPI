@@ -1,10 +1,9 @@
 <?php
 include_once("../Model/conexao.php");
-include_once("../Model/bancoContato.php");
+include_once("../Model/bancoKPIs.php");
  
 extract($_REQUEST,EXTR_OVERWRITE);
  
-buscarDataID($conexao,$data);
+buscarIdDts($conexao,$Id_Dts);
  
-header("Location: ../View/buscar.php");
-?>
+header("Location: ../View/buscar_del.php");

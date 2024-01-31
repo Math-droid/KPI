@@ -24,7 +24,7 @@ input[type="number"] {
     box-sizing: border-box;
 }
 button[type="reset"]{
-    width: 50%;
+    width: 100%;
     padding: 10px;
     margin: 10px 0;
     background-color: #af4c4c;
@@ -33,7 +33,7 @@ button[type="reset"]{
     cursor: pointer;
 }
 button  {
-    width: 50%;
+    width: 100%;
     padding: 10px;
     margin: 10px 0;
     background-color: #4CAF50;
