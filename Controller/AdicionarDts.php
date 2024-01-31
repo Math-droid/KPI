@@ -1,12 +1,12 @@
 <?php
 require_once("../Model/conexao.php");
-require_once("../Model/bancoContato.php");
+require_once("../Model/bancoKPIs.php");
 include_once("../View/header.php");
  
 extract($_REQUEST,EXTR_OVERWRITE);
  
  
-if(adicionarDts($conexao,$qtd_Dts,$qtd_Erro,$acurDts)){
+if(adicionarDts($conexao,$qtd_Dts,$qtd_erroDts,$acurDts)){
 echo("As informações do Contato foram salvas");
  
 }else{

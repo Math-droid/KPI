@@ -9,10 +9,10 @@ function adicionarBL($conexao,$qtd_Bolsas,$qtd_erroB,$acurB){
     return mysqli_query($conexao,$query);
 }
 function adicionarCxEtq($conexao,$qtd_CxEtq,$qtd_ErroCxEtq,$acurCxEtq){
-    $query = "insert into separacoes(qtd_CxEtq,qtd_ErroCxEtq,acurCxEtq)values('{$qtd_CxEtq}','{$qtd_ErroCxEtq}','{$acurCxEtq}')";
+    $query = "insert into cxetqtb(qtd_CxEtq,qtd_ErroCxEtq,acurCxEtq)values('{$qtd_CxEtq}','{$qtd_ErroCxEtq}','{$acurCxEtq}')";
     return mysqli_query($conexao,$query);
 }
- 
+ //
 function buscarDataID($conexao, $data){
     $query = "Select * from separacoes where data = '{$data}'";
     $result = mysqli_query($conexao,$query);
